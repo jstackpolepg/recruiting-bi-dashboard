@@ -1,0 +1,37 @@
+# OS-specific
+Thumbs.db
+Desktop.ini
+*.tmp
+~$*
+
+# VS Code
+.vscode/
+.history/
+
+# Python (future API work or scripts)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Power BI (binary). Consider versioning .pbix; comment out if you want to track them
+# *.pbix
+# *.pbix.local
+
+# Logs
+logs/
+*.log
+
+# Coverage/Testing
+.coverage
+coverage/
+pytest_cache/
+
+# Build artifacts
+build/
+dist/
